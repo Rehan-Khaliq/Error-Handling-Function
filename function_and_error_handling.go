@@ -1,35 +1,3 @@
-package main
-
-import "fmt"
-
-func simpleFunciton() {
-	fmt.Println("Simple Function:")
-}
-
-func add(a, b int) int {
-	return a + b
-}
-func multiply(x, y int) int {
-	return x * y
-}
-
-func divided(a, b int) (result int) { // we stored the output into result function and return result
-	result = a / b
-	return
-}
-
-func main() {
-	fmt.Println("We are learning functions today:")
-	simpleFunciton()
-	ans := add(3, 4)
-	fmt.Println("The Addition Of 2 Number Is:", ans)
-	// Now by applying 2nd Method
-	fmt.Println("By Adding Two Numbers:\n", add(4, 4))
-	fmt.Println("The Answer Of Multipication Function is:", multiply(3, 9))
-	// By calling didvided function
-	fmt.Println("The Divison Of Two Number Is: ", divided(3, 2))
-}
-
 // Error Handling In Fuction
 package main
 
